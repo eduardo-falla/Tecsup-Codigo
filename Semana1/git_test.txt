@@ -1,6 +1,6 @@
 
 
-Bocabulario
+Vocabulario:
     1.Branch    Ramas
     2.Origin    Lugar origen de donde clonamos contenido // Hace referencia nuestro Github remoto
     3.Local     Pc donde trabajamos
@@ -16,14 +16,14 @@ Bocabulario
 
 
 Pasos para usar git:
-    1.Cargar un folder en el editor de codigo
-    2.Comando : git init
-    3.Comando : git add . //
-    3.Comando : git commit -m "MensajeDescriptivo"
-    4.Comando : git status // 
-    5.Comando : git log // registro
-    6.Comando : git checkout (HASHCONREGISTRO) 
-    7.Comando : git push origen   //  Se puede setear como un atajo el cual puede indicar a una rama objetivo
-    8.Comando : git push origen : // En la espera de parametros o del branch a pushear a origen (remoto)
-    9.Comando : git push origen master(main)  //Actualiza el branch master
-    10.Comando : git push origen HEAD // Actualiza en el origen (remoto) el branch actual (head)
+    1. Cargar un folder en el editor de codigo
+    2. Comando : git init                               // Crea la carpeta de git .git de la carpeta de proyecto para empezar a gestionar versiones
+    3. Comando : git add .                              // Añade todos los cambios al stage
+    3. Comando : git commit -m "MensajeDescriptivo"     // Mueve los cambios del stage a tracked o los registra de manera local  
+    4. Comando : git status                             // Informa del estatus de los cambios (untracked, stage, tracked )
+    5. Comando : git log                                // registro
+    6. Comando : git checkout (HASHCONREGISTRO)         // Permite retornar a una branch previo
+    7. Comando : git push origen                        // Se puede setear como un atajo el cual puede indicar a una rama objetivo
+    8. Comando : git push origen :                      // En la espera de parametros o del branch a pushear a origen (remoto)
+    9. Comando : git push origen master(main)           // Actualiza el branch master
+    10.Comando : git push origen HEAD                   // Actualiza en el origen (remoto) el branch actual (head)
