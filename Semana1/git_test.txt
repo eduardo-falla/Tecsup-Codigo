@@ -2,13 +2,13 @@
 
 Vocabulario:
     1.Branch    Ramas
-    2.Origin    Lugar origen de donde clonamos contenido // Hace referencia nuestro Github remoto
-    3.Local     Pc donde trabajamos
-    4.remoto    Otra repo nuestra o externa pero en la nube
-    5.Upstream  Aun no se que cha es
+    2.Origin            Lugar origen de donde clonamos contenido // Hace referencia nuestro Github remoto
+    3.Local             Pc donde trabajamos
+    4.remoto            Otra repo nuestra o externa pero en la nube
+    5.Upstream          Aun no se que cha es
     6.Referencias (ref) Nombres sinmples que hacen referencia a commits con encryptación sha1
-    7.head      Branch actual
-    8.Master (main)  Branch principal
+    7.head              Branch actual
+    8.Master (main)     Branch principal
 
 
 
