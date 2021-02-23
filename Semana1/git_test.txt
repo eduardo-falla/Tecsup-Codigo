@@ -1,3 +1,20 @@
+
+
+Bocabulario
+    1.Branch    Ramas
+    2.Origin    Lugar origen de donde clonamos contenido // Hace referencia nuestro Github remoto
+    3.Local     Pc donde trabajamos
+    4.remoto    Otra repo nuestra o externa pero en la nube
+    5.Upstream  Aun no se que cha es
+    6.Referencias (ref) Nombres sinmples que hacen referencia a commits con encryptación sha1
+    7.head      Branch actual
+    8.Master (main)  Branch principal
+
+
+
+
+
+
 Pasos para usar git:
     1.Cargar un folder en el editor de codigo
     2.Comando : git init
@@ -6,4 +23,7 @@ Pasos para usar git:
     4.Comando : git status // 
     5.Comando : git log // registro
     6.Comando : git checkout (HASHCONREGISTRO) 
-    7.Comando : git push origen
+    7.Comando : git push origen   //  Se puede setear como un atajo el cual puede indicar a una rama objetivo
+    8.Comando : git push origen : // En la espera de parametros o del branch a pushear a origen (remoto)
+    9.Comando : git push origen master(main)  //Actualiza el branch master
+    10.Comando : git push origen HEAD // Actualiza en el origen (remoto) el branch actual (head)
