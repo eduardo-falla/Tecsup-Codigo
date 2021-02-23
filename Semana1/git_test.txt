@@ -13,7 +13,7 @@ Vocabulario:
 
 
 
-
+ 
 
 Pasos para usar git:
     1. Cargar un folder en el editor de codigo
@@ -21,7 +21,7 @@ Pasos para usar git:
     3. Comando : git add .                              // Añade todos los cambios al stage
     3. Comando : git commit -m "MensajeDescriptivo"     // Mueve los cambios del stage a tracked o los registra de manera local  
     4. Comando : git status                             // Informa del estatus de los cambios (untracked, stage, tracked )
-    5. Comando : git log                                // registro
+    5. Comando : git log                                // Muestra los registros de commits
     6. Comando : git checkout (HASHCONREGISTRO)         // Permite retornar a una branch previo
     7. Comando : git push origen                        // Se puede setear como un atajo el cual puede indicar a una rama objetivo
     8. Comando : git push origen :                      // En la espera de parametros o del branch a pushear a origen (remoto)
