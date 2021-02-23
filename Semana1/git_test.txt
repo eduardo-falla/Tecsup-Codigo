@@ -1,0 +1,8 @@
+Pasos para usar git:
+    1.Cargar un folder en el editor de codigo
+    2.Comando : git init
+    3.Comando : git add . //
+    3.Comando : git commit -m "MensajeDescriptivo"
+    4.Comando : git status // 
+    5.Comando : git log // registro
+    6.Comando : git checkout (HASHCONREGISTRO) 
