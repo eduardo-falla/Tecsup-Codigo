@@ -6,3 +6,4 @@ Pasos para usar git:
     4.Comando : git status // 
     5.Comando : git log // registro
     6.Comando : git checkout (HASHCONREGISTRO) 
+    7.
