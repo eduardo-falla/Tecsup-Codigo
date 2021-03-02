@@ -1,0 +1,69 @@
+<!-- El for debe apuntar principalmente al id (el id se usa mas para el arreglo frontend y el name para el backend) -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Formulario</h1>
+    <form action="" oninput="dosvalores.value=parseInt(a.value) + parseInt(b.value)">
+      <div>
+        <h3>Datos generales</h3>
+        <label for="nombre_madre">Nombre de la madre : </label>
+        <input type="text" name="nombre_madre" id="nombre_madre" />
+      </div>
+
+      <div>
+        <label for="horas_progra">Horas de programación :</label>
+        <input type="number" name="horas_progra" id="horas_progra" />
+      </div>
+
+      
+      <div>
+        <h3>Mascota favorita:</h3>
+        <label for="perro">Perro</label>
+        <input type="radio" name="mascota" id="perro" value="perro" />
+      </div>
+
+      <div>
+        <label for="gato">Gato</label>
+        <input type="radio" name="mascota" id="gato" value="gato" />
+      </div>
+
+
+      <div>
+        <h3>Comida favorita:</h3>
+          <label for="chicharron">Chicharron</label>
+          <input type="checkbox" name="chicharron" id="chicharron" value="Chicharron">
+          <br>
+          <label for="Chanfainita">Chanfainita</label>
+          <input type="checkbox" name="Chanfainita" id="Chanfainita" value="Chanfainita">
+          <br>
+          <label for="Combinado">Combinado</label>
+          <input type="checkbox" name="Combinado" id="Combinado" value="Combinado">
+
+        <div>
+         <label for="b">Seleccione el valor de b:</label>
+         <select name="b" id="b">
+          <option value="0">0</option>
+          <option value="10">10</option>
+          <option value="20">20</option>
+          <option value="30">30</option>
+          <option value="40">40</option>
+          <option value="50">50</option>
+         </select>
+
+          <label for="a"></label>
+          <br>
+         0<input type="range" id="a" name="a" value=50 >100
+         <br>
+         El valor es: <output name="dosvalores" for="a b"></output>
+        </div>
+
+      </div>
+    </form>
+  </body>
+</html>
+adasdsa
