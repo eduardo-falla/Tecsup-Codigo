@@ -1,0 +1,12 @@
+div {
+  width: 250px;
+  height: 695px;
+  border-radius: 68%;
+  text-align: center; 
+  background-image: linear-gradient(to top left, red 0, orange,yellow,black,green,black,grey)
+}
+p {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}

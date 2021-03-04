@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+
+
+*{
+    margin:0
+}
+
+footer{
+    height:15vh;
+    width:100vw;
+}
+
+.img-cancion{
+    border-radius:25px;
+    height: 80vh;
+}
+
+body {
+    background-image: url("img/fondo-2.jpg");
+    width: 100vw;
+    height: 100vh;
+    /* background-color: black; */
+    background-repeat: repeat;
+    text-align: center;
+    background-size: contain;
+}
+
+header{
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+        font-weight:bolder;
+    text-align: center;
+ 
+    font-size: 31px;
+}

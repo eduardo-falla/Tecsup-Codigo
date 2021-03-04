@@ -1,0 +1,21 @@
+
+
+body{
+    text-align: center;
+}
+main{
+    
+
+}
+
+#titulo{
+border-style:double dashed dashed dotted;
+}
+
+
+
+
+.linea-1{border-style: inset;}
+.linea-2{border-style: double;}
+.linea-3{border-style: solid;}
+.linea-4{border-style: dotted double dotted double;}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Architects+Daughter&family=Stick&family=Yanone+Kaffeesatz:wght@500&display=swap');
+.text-song {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body{
+    background-color:black;
+    color: white;   
+}
+.text-name{
+    color: orange;
+}
+.lista-1{
+    color: rgb(81, 255, 0);
+}
+.lista-2{
+    color: rgb(0, 238, 255);
+}
+.lista-3{
+    color: rgb(255, 0, 13);
+}
+.lista-4{
+    color: rgb(195, 0, 255);
+}
+.lista-5{
+    color: rgb(255, 255, 255);
+}
+
+.parrafo-1{
+    font-family: 'Akaya Kanadaka', cursive;
+    color: rgb(81, 255, 0);
+}
+.parrafo-2{
+    font-family: 'Architects Daughter', cursive;
+    color: rgb(0, 238, 255);
+}
+.parrafo-3{
+    font-family: 'Stick', sans-serif;
+    color: rgb(255, 0, 13);
+}
+.parrafo-4{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(195, 0, 255);
+}
+.parrafo-5{
+    font-family: 'Akaya Kanadaka', cursive;
+    color: rgb(255, 255, 255);
+}
+.nombre-1{
+    font-family: 'Stick', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+}
+.nombre-2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+}
+.nombre-3{
+    font-family: 'Akaya Kanadaka', cursive;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+}
+.contenedor{
+    display: inline;
+}
