@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    function recomenclima(clima) {
+        let recomendacion= "";
+        if(clima=="lluvioso"){
+            recomendacion="Hoy lloverá, usar su paraguas";}
+        else if (clima=="nublado"){ 
+            recomendacion="Hoy el cielo estará gris, sad ";}
+        else if(clima=="soleado"){
+            recomendacion="Radiación alta, mantenerse bajo la sombra";}
+        else{
+            recomendacion="No se que poner";
+        }
+    return recomendacion;
+        
+    }
+    
+    console.log(recomenclima("lluvioso"));
+    console.log(recomenclima("nublado"));
+    console.log(recomenclima("soleado"));
+    console.log(recomenclima("otro"));
+</script>
+</body>
+</html>
