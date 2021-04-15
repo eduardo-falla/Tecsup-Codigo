@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+}
+
+
+.wf{
+    outline:1px solid black;
+}
+#sidebar{
+    min-height: 100vh;
+    width:auto;
+}
+#main-content{
+    width:auto;
+    min-height: 100vh;
+}
+
+.header{
+    height: 50px;
+}
+.sub-header{ 
+    height: 50px;
+}
+.etc{
+margin: 0;
+}
